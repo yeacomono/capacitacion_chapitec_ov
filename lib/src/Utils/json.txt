@@ -1,0 +1,65 @@
+Logeo Service
+envio de datos 
+{
+   user_chofer:"",
+   password:""
+}
+respuesta de datos 
+{
+	"chofer_one": {
+		"dni": "",
+		"primerNombre": "",
+		"segundoNombre": "",
+		"apellidoMaterno": "",
+		"apellidoPaterno": ""
+	},
+	"chofer_two": {
+		"dni": "",
+		"primerNombre": "",
+		"segundoNombre": "",
+		"apellidoMaterno": "",
+		"apellidoPaterno": ""
+	},
+	"url_image": "",
+	"alias": "",
+	"brevete": "",
+	"categoria": "",
+	"typeGroup": "",
+	"categoria": "",
+	"tipoGrupo": "",
+	"num_celular": ""
+}
+{
+    msn:"",
+    valor:bool,
+    data:""
+}
+Programacion
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+
+    terminal:"",
+    origen:"",
+    destino:"",
+
+}
+Programacion inicio ruta:
+
+send data post
+-grabar inicio ruta
+{
+    idUser:"",
+    kilometraje:"",
+    candados:""
+}
+-grabar llegada ruta
+{
+    idUser:"",
+    kilometraje:"",
+    candados:""
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Relevos
+
