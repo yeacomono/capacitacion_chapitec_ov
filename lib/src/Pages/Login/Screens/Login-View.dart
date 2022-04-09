@@ -18,7 +18,6 @@ class LoginView extends StatefulWidget {
   @override
   _LoginViewState createState() => _LoginViewState();
 }
-
 class _LoginViewState extends State<LoginView> {
   TextEditingController controllerUser = new TextEditingController();
   TextEditingController controllerPassword = new TextEditingController();

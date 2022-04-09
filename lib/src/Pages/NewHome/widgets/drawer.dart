@@ -1,9 +1,8 @@
 import 'package:capacitacion_flutter_gran_chapo/src/Pages/Home2/home2.dart';
 import 'package:capacitacion_flutter_gran_chapo/src/Pages/Login/Screens/Login-View.dart';
+import 'package:capacitacion_flutter_gran_chapo/src/Pages/LoginService/loginservice_view.dart';
 import 'package:capacitacion_flutter_gran_chapo/src/Pages/VistaUno/itemone.dart';
 import 'package:flutter/material.dart';
-
-
 
 class DrawerView extends StatefulWidget {
   const DrawerView({Key? key}) : super(key: key);
@@ -30,18 +29,24 @@ class _DrawerViewState extends State<DrawerView> {
         },
       ),
       ListTile(
-        onTap: (){
-           Navigator.pushNamed(context, VistaOne.name);
+        onTap: () {
+          Navigator.pushNamed(context, VistaOne.name);
         },
         title: Text('Item 2'),
       ),
       ///////////////////////
       ListTile(
-        onTap: (){
-           Navigator.pushNamed(context, Home2View.name);
+        onTap: () {
+          Navigator.pushNamed(context, Home2View.name);
         },
         title: Text('Item 3'),
-      ),      
+      ),
+      ListTile(
+        onTap: () {
+          Navigator.pushNamed(context, LoginServiceView.name);
+        },
+        title: Text('Login Service'),
+      )
     ]));
   }
 }
